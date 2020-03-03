@@ -1,4 +1,4 @@
-#ifndef ACCOUNT_H
+#ifndef ACCOUNT_H	
 #define ACCOUNT_H
 
 #include <iostream>
@@ -8,6 +8,7 @@ using namespace std;
 class Account{
 	private:
 		double balance; // data member that stores the balance
+		
 
 	protected:
 		double getBalance() const; // return the account balance
